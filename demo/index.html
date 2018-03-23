@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Headway Demo</title>
+        <script type="text/javascript" src="../headway.js" defer></script>
+        <script type="text/javascript" src="demo.js" defer></script>
+        <style>
+            #progress-container {
+                background-color: #555;
+                height: 50px;
+                max-width: 400px;
+                text-align: center;
+            }
+            #progress-bar {
+                background-color: #f00;
+                height: 100%;
+                width: 0%;
+            }
+            #progress-status {
+                color: #fff;
+                float: left;
+                width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="progress-container">
+            <span id="progress-status"></span>
+            <div id="progress-bar"></div>
+        </div>
+    </body>
+</html>
