@@ -12,6 +12,9 @@
         if (updateCallback) {
             updateCallback(this);
         }
+        if (this.getPercentComplete() >= 100) {
+            completeCallback();
+        }
     };
 
     Progress.prototype.getPercentComplete = function() {

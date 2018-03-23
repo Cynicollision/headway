@@ -40,5 +40,5 @@
 
     Headway.onComplete(() => {
         document.getElementById('progress-status').innerText = 'Complete!';
-    })
+    });
 })();
