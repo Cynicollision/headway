@@ -1,0 +1,24 @@
+{
+  "name": "headway",
+  "version": "1.0.0",
+  "description": "Lightweight library for tracking loading progress",
+  "main": "headway.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cynicollision/headway.git"
+  },
+  "author": "Sean Normoyle",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cynicollision/headway/issues"
+  },
+  "homepage": "https://github.com/Cynicollision/headway#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^3.0.0",
+    "gulp-minify": "^2.1.0"
+  }
+}

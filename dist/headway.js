@@ -12,7 +12,7 @@
         if (updateCallback) {
             updateCallback(this);
         }
-        if (this.getPercentComplete() >= 100) {
+        if (completeCallback && this.getPercentComplete() >= 100) {
             completeCallback();
         }
     };
